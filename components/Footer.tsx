@@ -1,7 +1,18 @@
 import Link from "next/link";
 import { BlurFade } from "./ui/blur-fade";
 
-export default function Footer() {
+interface FooterProps {
+  footer: {
+    text: string;
+    links: {
+      linkedin: string;
+      github: string;
+      contact: string;
+    };
+  };
+}
+
+export default function Footer({ footer }: FooterProps) {
   return (
     <footer className="max-w-6xl mx-auto px-6 py-20 border-t border-white/5">
       <div className="flex flex-col md:flex-row justify-between items-center gap-10">
@@ -12,9 +23,7 @@ export default function Footer() {
                 Lewis Garcia
               </span>
             </div>
-            <p className="text-white/40 text-sm max-w-xs">
-              Building the future of scalable intelligence. Based in Bogotá, CO.
-            </p>
+            <p className="text-white/40 text-sm max-w-xs">{footer.text}</p>
           </div>
         </BlurFade>
         <BlurFade delay={0.3} direction="up" inView>
@@ -23,25 +32,25 @@ export default function Footer() {
               className="text-white/50 hover:text-white transition-colors text-sm font-medium"
               href="https://www.linkedin.com/in/lewis-garc%C3%ADa-899523209"
             >
-              LinkedIn
+              {footer.links.linkedin}
             </a>
             <a
               className="text-white/50 hover:text-white transition-colors text-sm font-medium"
               href="https://github.com/lewisggp"
             >
-              GitHub
+              {footer.links.github}
             </a>
             <Link
               className="text-white/50 hover:text-white transition-colors text-sm font-medium"
               href="mailto:lewisggp@gmail.com"
             >
-              Contact
+              {footer.links.contact}
             </Link>
           </div>
         </BlurFade>
         <BlurFade delay={0.4} direction="up" inView>
           <div className="text-white/30 text-xs font-medium">
-            © 2026 Lewisggp.site. All rights reserved.
+            © 2026 Lewisggp.site.
           </div>
         </BlurFade>
       </div>

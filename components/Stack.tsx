@@ -29,11 +29,16 @@ const iconMap: Record<string, string> = {
 };
 
 interface StackProps {
-  groups: StackItem[];
+  stack: {
+    title: string;
+    subtitle: string;
+    groups: StackItem[];
+  };
   cards: StackCardItem[];
 }
 
-export default function Stack({ groups, cards }: StackProps) {
+export default function Stack({ stack, cards }: StackProps) {
+  const { groups } = stack;
   const firstCards = cards.slice(0, cards.length / 2);
   const secondCards = cards.slice(cards.length / 2);
 
@@ -46,11 +51,10 @@ export default function Stack({ groups, cards }: StackProps) {
         <div className="lg:col-span-4">
           <BlurFade delay={0.2} direction="up" inView>
             <h2 className="text-white text-3xl font-black tracking-tight mb-6">
-              Technical Ecosystem
+              {stack.title}
             </h2>
             <p className="text-white/50 leading-relaxed mb-8">
-              My stack built for performance, security, and developer
-              productivity.
+              {stack.subtitle}
             </p>
           </BlurFade>
           <div className="space-y-4">

@@ -1,0 +1,247 @@
+{
+  "navbar": {
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "stack": "Stack",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Disponible para Nuevos Proyectos",
+    "title1": "Arquitecturas Escalables",
+    "title2": "& Desarrollo Full Stack",
+    "description": "Ingeniero de Software. +5 años transformando retos técnicos en soluciones tecnológicas robustas.",
+    "ctaProjects": "Ver Proyectos",
+    "ctaResume": "Ver CV",
+    "resumeLink": "/docs/CVLewisGarcia.pdf"
+  },
+  "about": {
+    "title1": "Uniendo Sistemas Complejos y",
+    "title2": "Soluciones Escalables.",
+    "p1": "Mi nombre es Lewis Garcia. Mis primeros acercamientos en la programación comenzaron en mi infancia con C++. Hoy, me especializo en arquitectura y desarrollo de <strong>soluciones de integración complejas y plataformas SaaS.</strong>",
+    "p2": "Me gradué con honores como Ingeniero en Computación y actualmente comparto mi experiencia como Profesor Adjunto en la Universidad de Oriente. Me apasiona transformar desafíos técnicos en soluciones de software elegantes y robustas.",
+    "p3": "Mis proyectos más ambiciosos incluyen una plataforma de <strong>reserva de vuelos</strong> de alto rendimiento que unifica proveedores con diferentes procesos, y <strong>sistemas de control IoT</strong> para la industria del petróleo y el gas."
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "subtitle": "Una trayectoria construyendo software escalable y soluciones de arquitectura empresarial.",
+    "items": [
+      {
+        "id": 1,
+        "period": "Nov 2024 — PRESENTE",
+        "title": "Arquitectura e Ingeniería de Plataformas",
+        "description": "Diseño y escalabilidad de ecosistemas digitales para los sectores de viajes y comercio electrónico.",
+        "location": "Lechería, Venezuela",
+        "role": "Lead Full Stack Engineer",
+        "company": "Back9",
+        "type": "corporate_fare",
+        "achievements": [
+          "Desarrollé aplicaciones de comercio electrónico (e-commerce) con back-office personalizado, integrando Power BI.",
+          "Construí una plataforma end-to-end de reservas aéreas utilizando datos de múltiples GDS para agencias de viaje.",
+          "Automaticé sistemas de acceso a estadios programando controladores conectados a una plataforma de boletería digital."
+        ]
+      },
+      {
+        "id": 2,
+        "period": "Abr 2025 — PRESENTE",
+        "title": "Liderazgo Académico",
+        "description": "Formando a la próxima generación de ingenieros informáticos.",
+        "location": "Barcelona, Venezuela",
+        "role": "Profesor Adjunto",
+        "company": "Universidad de Oriente",
+        "type": "school",
+        "achievements": [
+          "Impartiendo la asignatura de pregrado 'Teoría de Autómatas y Lenguajes Formales' en el Departamento de Ingeniería."
+        ]
+      },
+      {
+        "id": 3,
+        "period": "Mar 2025 — PRESENTE",
+        "title": "Arquitectura SaaS e Innovación en IA",
+        "description": "Arquitectura de productos industriales y soluciones avanzadas de IA generativa.",
+        "location": "Remoto",
+        "role": "Founding Engineer",
+        "company": "ProgyLift LLC",
+        "type": "rocket_launch",
+        "achievements": [
+          "Lideré la arquitectura técnica y el diseño de producto de una plataforma SaaS para la industria petrolera.",
+          "Desarrollé un software de análisis y control con datos en tiempo real provenientes de sensores de pozos petroleros.",
+          "Ingenié un Chatbot RAG permitiendo consultas sobre bases de datos de producción y documentación interna."
+        ]
+      },
+      {
+        "id": 4,
+        "period": "Feb 2023 — Sep 2024",
+        "title": "Sistemas IoT e Integración en la Nube",
+        "description": "Automatización y monitoreo de datos de telemetría utilizando servicios en la nube.",
+        "location": "Remoto",
+        "role": "Full Stack Developer",
+        "company": "NextWells Corp.",
+        "type": "sensors",
+        "achievements": [
+          "Automatice adquisición de datos con AWS IoT Core y funciones Lambda para datos de controladores de pozos petroleros.",
+          "Desarrollé una aplicación web en Next.js con dashboards para visualizar datos de producción.",
+          "Mantuve una aplicación web en ASP.NET con dashboards para el análisis y gestión de datos en la industria petrolera."
+        ]
+      },
+      {
+        "id": 5,
+        "period": "2020 — 2024",
+        "title": "Soluciones de Software Personalizadas",
+        "description": "Desarrollo de aplicaciones personalizadas y gestión de proyectos freelance.",
+        "location": "Remoto",
+        "role": "Full Stack Developer",
+        "company": "Freelancer",
+        "type": "speed",
+        "achievements": [
+          "Mantuve una aplicación web para la gestión de proyectos de arquitectura con dashboards personalizados.",
+          "Construí un software para el seguimiento de tiempo de empleados, con cálculos de nómina basados en horas trabajadas.",
+          "Diseñé y desarrollé sitios web, incluyendo blogs y tiendas de productos."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Desafíos de Ingeniería Destacados",
+    "subtitle": "Una selección de proyectos de tecnología que involucran arquitectura compleja, patrones de diseño e integración de IA.",
+    "items": [
+      {
+        "id": 1,
+        "title": "El Good Trip",
+        "description": "Construí una plataforma de reserva de aerolíneas de extremo a extremo utilizando datos de múltiples GDS para agencias de viajes.",
+        "image": "/images/projects/elgoodtrip-1.png",
+        "images": [
+          "/images/projects/elgoodtrip-1.png",
+          "/images/projects/elgoodtrip-2.png",
+          "/images/projects/elgoodtrip-3.png",
+          "/images/projects/elgoodtrip-4.png",
+          "/images/projects/elgoodtrip-5.png",
+          "/images/projects/elgoodtrip-6.png",
+          "/images/projects/elgoodtrip-7.png"
+        ],
+        "tags": ["Next.js", "Node.js", "Redis", "MongoDB", "Multi-tenant"],
+        "typeLabels": ["Viajes", "Plataforma", "GDS"],
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "title": "ProgyLift",
+        "description": "Software de gestión inteligente conectado a sistemas IoT de pozos petroleros",
+        "image": "/images/projects/progylift-1.png",
+        "images": [
+          "/images/projects/progylift-1.png",
+          "/images/projects/progylift-2.png",
+          "/images/projects/progylift-3.png",
+          "/images/projects/progylift-4.png",
+          "/images/projects/progylift-5.png",
+          "/images/projects/progylift-6.png",
+          "/images/projects/progylift-7.png",
+          "/images/projects/progylift-8.png"
+        ],
+        "tags": ["Next.js", "Prisma", "Supabase", "CMS"],
+        "typeLabels": ["SaaS", "Petróleo y Gas"],
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "title": "Tea and Nature",
+        "description": "Una tienda de comercio electrónico dedicada a productos naturales y tés con un enfoque en el diseño sereno.",
+        "image": "/images/projects/teandnature-1.png",
+        "images": [
+          "/images/projects/teandnature-1.png",
+          "/images/projects/teandnature-2.png",
+          "/images/projects/teandnature-3.png"
+        ],
+        "tags": ["E-commerce", "Diseño Web", "Frontend"],
+        "typeLabels": ["Retail", "Tienda"],
+        "link": "#"
+      },
+      {
+        "id": 4,
+        "title": "Gustavo Copelmayer",
+        "description": "Un sitio web de marca personal y blog que muestra artículos, medios e hitos profesionales.",
+        "image": "/images/projects/gustavocopelmayer-1.png",
+        "images": [
+          "/images/projects/gustavocopelmayer-1.png",
+          "/images/projects/gustavocopelmayer-2.png",
+          "/images/projects/gustavocopelmayer-3.png",
+          "/images/projects/gustavocopelmayer-4.png",
+          "/images/projects/gustavocopelmayer-5.png",
+          "/images/projects/gustavocopelmayer-6.png"
+        ],
+        "tags": ["Diseño Web", "CMS", "Frontend"],
+        "typeLabels": ["Personal", "Blog"],
+        "link": "#"
+      },
+      {
+        "id": 5,
+        "title": "Longview",
+        "description": "Desarrollé un software de análisis y control con datos en tiempo real de sensores de pozos petroleros.",
+        "image": "/images/projects/longview-1.png",
+        "images": [
+          "/images/projects/longview-1.png",
+          "/images/projects/longview-2.png",
+          "/images/projects/longview-3.png",
+          "/images/projects/longview-4.png",
+          "/images/projects/longview-5.png"
+        ],
+        "tags": ["Next.js", "Django", "PostgreSQL", "IoT", "Tiempo real"],
+        "typeLabels": ["Industria", "SaaS"],
+        "link": "#"
+      },
+      {
+        "id": 6,
+        "title": "Residentudo",
+        "description": "Un proyecto de juego estudiantil para una materia universitaria que recuerdo con mucho cariño.",
+        "image": "/images/projects/residentudo-1.png",
+        "images": [
+          "/images/projects/residentudo-1.png",
+          "/images/projects/residentudo-2.png",
+          "/images/projects/residentudo-3.png",
+          "/images/projects/residentudo-4.png",
+          "/images/projects/residentudo-5.png",
+          "/images/projects/residentudo-6.png",
+          "/images/projects/residentudo-7.png",
+          "/images/projects/residentudo-8.png",
+          "/images/projects/residentudo-9.png",
+          "/images/projects/residentudo-10.png"
+        ],
+        "tags": ["Java", "Juego", "Estructuras de Datos", "Estudiante"],
+        "typeLabels": ["Universidad", "Juego"],
+        "link": "#"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tecnologías",
+    "subtitle": "Mi stack está dirigido para rendimiento, seguridad y productividad de desarrollo.",
+    "groups": [
+      {
+        "category": "Nube y DevOps",
+        "icon": "cloud",
+        "description": "AWS, Git, Docker, CI/CD",
+        "items": "Nube y DevOps"
+      },
+      {
+        "category": "IA e Integraciones",
+        "icon": "psychology",
+        "description": "Integración de LLM, RAG, N8N",
+        "items": "IA e Integraciones"
+      },
+      {
+        "category": "Arquitectura y Datos",
+        "icon": "architecture",
+        "description": "Diseño de Base de Datos, SQL/NoSQL, GraphQL, Power BI",
+        "items": "Arquitectura y Datos"
+      }
+    ]
+  },
+  "footer": {
+    "text": "Construyendo el futuro de la inteligencia escalable. Ubicado en Bogotá, CO.",
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "contact": "Contact"
+    }
+  }
+}

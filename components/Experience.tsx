@@ -2,10 +2,15 @@ import { BlurFade } from "./ui/blur-fade";
 import { ExperienceItem } from "../data/portfolio";
 
 interface ExperienceProps {
-  items: ExperienceItem[];
+  experience: {
+    title: string;
+    subtitle: string;
+    items: ExperienceItem[];
+  };
 }
 
-export default function Experience({ items }: ExperienceProps) {
+export default function Experience({ experience }: ExperienceProps) {
+  const { items } = experience;
   return (
     <section
       className="max-w-6xl mx-auto px-6 py-24 border-t border-white/5"
@@ -14,11 +19,10 @@ export default function Experience({ items }: ExperienceProps) {
       <BlurFade delay={0.2} direction="up" inView>
         <div className="text-center mb-20">
           <h2 className="text-white text-4xl font-black tracking-tight mb-4">
-            Professional Experience
+            {experience.title}
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto">
-            A trajectory of building scalable software and architectural
-            solutions across enterprises.
+            {experience.subtitle}
           </p>
         </div>
       </BlurFade>

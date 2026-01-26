@@ -1,7 +1,17 @@
 import { AuroraText } from "./ui/aurora-text";
 import { BlurFade } from "./ui/blur-fade";
 
-export default function About() {
+interface AboutProps {
+  about: {
+    title1: string;
+    title2: string;
+    p1: string;
+    p2: string;
+    p3: string;
+  };
+}
+
+export default function About({ about }: AboutProps) {
   return (
     <section
       className="max-w-6xl mx-auto px-6 py-24 border-t border-white/5"
@@ -24,33 +34,14 @@ export default function About() {
         <div className="lg:col-span-8">
           <BlurFade delay={0.3} direction="up" inView>
             <h3 className="text-white text-3xl md:text-5xl font-black mb-8 leading-tight">
-              Bridging Complex Systems & <br />
-              <AuroraText>& Scalable Solutions.</AuroraText>
+              {about.title1} <AuroraText>{about.title2}</AuroraText>
             </h3>
           </BlurFade>
           <BlurFade delay={0.4} direction="up" inView>
             <div className="space-y-6 text-white/60 text-lg leading-relaxed">
-              <p>
-                My name is Lewis Garcia. My journey in programming began in my
-                childhood with C++. Today, I specialize in architecting and
-                developing{" "}
-                <strong>
-                  complex integration solutions and SaaS platforms.
-                </strong>
-              </p>
-              <p>
-                I graduated with honors as a Computer Engineer and currently
-                share my expertise as an Adjunct Professor at Universidad de
-                Oriente. I am passionate about transforming technical challenges
-                into elegant, robust software solutions.
-              </p>
-              <p>
-                My most ambitious projects include a high-performance{" "}
-                <strong>flight booking platform</strong> that unifies providers
-                with different processes, and{" "}
-                <strong>IoT control systems</strong> for the oil and gas
-                industry.
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: about.p1 }} />
+              <p dangerouslySetInnerHTML={{ __html: about.p2 }} />
+              <p dangerouslySetInnerHTML={{ __html: about.p3 }} />
             </div>
           </BlurFade>
         </div>

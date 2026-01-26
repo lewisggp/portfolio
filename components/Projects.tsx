@@ -7,10 +7,15 @@ import { AnimatePresence, motion } from "motion/react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 interface ProjectsProps {
-  items: ProjectItem[];
+  projects: {
+    title: string;
+    subtitle: string;
+    items: ProjectItem[];
+  };
 }
 
-export default function Projects({ items }: ProjectsProps) {
+export default function Projects({ projects }: ProjectsProps) {
+  const { items } = projects;
   const [selectedProject, setSelectedProject] = useState<ProjectItem | null>(
     null,
   );
@@ -62,11 +67,10 @@ export default function Projects({ items }: ProjectsProps) {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="max-w-xl">
             <h2 className="text-white text-4xl font-black tracking-tight mb-4">
-              Featured Engineering Challenges
+              {projects.title}
             </h2>
             <p className="text-white/50 text-lg leading-relaxed">
-              A selection of deep-tech projects involving complex arquitecture,
-              design patters and enterprise AI integration.
+              {projects.subtitle}
             </p>
           </div>
         </div>

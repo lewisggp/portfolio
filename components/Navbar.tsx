@@ -1,13 +1,36 @@
-import Link from "next/link";
+"use client";
 
-export default function Navbar() {
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+type NavbarProps = {
+  dictionary: {
+    experience: string;
+    projects: string;
+    stack: string;
+    about: string;
+    contact: string;
+  };
+  lang: string;
+};
+
+export default function Navbar({ dictionary, lang }: NavbarProps) {
+  const pathname = usePathname();
+
+  const redirectedPathName = (locale: string) => {
+    if (!pathname) return "/";
+    const segments = pathname.split("/");
+    segments[1] = locale;
+    return segments.join("/");
+  };
+
   return (
     <nav className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
       <div className="backdrop-blur-md bg-white/5 border border-white/10 rounded-full px-6 py-3 flex items-center gap-8 md:gap-12 max-w-fit shadow-2xl">
         <div className="flex items-center gap-2">
           <Link
             className="text-white font-black tracking-tight text-xl"
-            href="#hero"
+            href={`/${lang}#hero`}
           >
             Lewis Garcia
           </Link>
@@ -15,40 +38,58 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8">
           <Link
             className="text-white/70 hover:text-primary text-sm font-medium transition-colors"
-            href="#experience"
+            href={`/${lang}#experience`}
           >
-            Experience
+            {dictionary.experience}
           </Link>
           <Link
             className="text-white/70 hover:text-primary text-sm font-medium transition-colors"
-            href="#projects"
+            href={`/${lang}#projects`}
           >
-            Projects
+            {dictionary.projects}
           </Link>
           <Link
             className="text-white/70 hover:text-primary text-sm font-medium transition-colors"
-            href="#stack"
+            href={`/${lang}#stack`}
           >
-            Stack
+            {dictionary.stack}
           </Link>
           <Link
             className="text-white/70 hover:text-primary text-sm font-medium transition-colors"
-            href="#about"
+            href={`/${lang}#about`}
           >
-            About
+            {dictionary.about}
           </Link>
         </div>
         <div className="flex items-center gap-4 border-l border-white/10 pl-8">
-          <button className="flex items-center gap-1.5 text-xs font-bold text-white/50 hover:text-primary transition-colors cursor-pointer">
-            <span className="text-primary">EN</span>
+          <div className="flex items-center gap-1.5 text-xs font-bold text-white/50 cursor-pointer">
+            <Link
+              href={redirectedPathName("en")}
+              className={`${
+                lang === "en"
+                  ? "text-primary hover:text-primary/90"
+                  : "hover:text-white"
+              } transition-colors`}
+            >
+              EN
+            </Link>
             <span className="text-white/20">/</span>
-            <span>ES</span>
-          </button>
+            <Link
+              href={redirectedPathName("es")}
+              className={`${
+                lang === "es"
+                  ? "text-primary hover:text-primary/90"
+                  : "hover:text-white"
+              } transition-colors`}
+            >
+              ES
+            </Link>
+          </div>
           <Link
             href="mailto:lewisggp@gmail.com"
             className="bg-primary hover:bg-primary/90 text-white text-sm font-bold px-6 py-2 rounded-full transition-all shadow-[0_0_15px_rgba(13,166,242,0.4)] cursor-pointer"
           >
-            Contact
+            {dictionary.contact}
           </Link>
         </div>
       </div>
