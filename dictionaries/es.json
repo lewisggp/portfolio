@@ -184,8 +184,7 @@
           "/images/projects/longview-3.png",
           "/images/projects/longview-4.png",
           "/images/projects/longview-5.png",
-          "/images/projects/longview-6.png",
-          "/images/projects/longview-7.png"
+          "/images/projects/longview-6.png"
         ],
         "tags": ["Next.js", "Django", "PostgreSQL", "AWS", "IoT"],
         "typeLabels": ["Industria", "SaaS", "Oil & Gas"],
