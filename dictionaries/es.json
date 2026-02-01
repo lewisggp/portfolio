@@ -108,7 +108,7 @@
       {
         "id": 1,
         "title": "El Good Trip",
-        "description": "Construí una plataforma de reserva de aerolíneas de extremo a extremo utilizando datos de múltiples GDS para agencias de viajes.",
+        "description": "Plataforma de reserva de aerolíneas unificando datos de múltiples GDS para agencias de viajes.",
         "image": "/images/projects/elgoodtrip-1.png",
         "images": [
           "/images/projects/elgoodtrip-1.png",
@@ -126,7 +126,7 @@
       {
         "id": 2,
         "title": "ProgyLift",
-        "description": "Software de gestión inteligente conectado a sistemas IoT de pozos petroleros",
+        "description": "Software de gestión inteligente conectado a sistemas IoT de pozos petroleros.",
         "image": "/images/projects/progylift-1.png",
         "images": [
           "/images/projects/progylift-1.png",
@@ -145,7 +145,7 @@
       {
         "id": 3,
         "title": "Tea and Nature",
-        "description": "Una tienda de comercio electrónico dedicada a productos naturales y tés con un enfoque en el diseño sereno.",
+        "description": "Tienda de tés, café orgánico, bubble tea y comida ligera.",
         "image": "/images/projects/teandnature-1.png",
         "images": [
           "/images/projects/teandnature-1.png",
@@ -158,6 +158,81 @@
       },
       {
         "id": 4,
+        "title": "Punchclock",
+        "description": "Sistema de control de trabajo para cadenas de restaurantes. Cálculos de nómina basados en horas trabajadas e historial.",
+        "image": "/images/projects/punchclock-2.png",
+        "images": [
+          "/images/projects/punchclock-1.png",
+          "/images/projects/punchclock-2.png",
+          "/images/projects/punchclock-3.png",
+          "/images/projects/punchclock-4.png",
+          "/images/projects/punchclock-5.png",
+          "/images/projects/punchclock-6.png"
+        ],
+        "tags": ["React", "Vite", "Django", "VPS"],
+        "typeLabels": ["Gestión", "Personalizado"],
+        "link": "#"
+      },
+      {
+        "id": 5,
+        "title": "Longview",
+        "description": "Software de análisis y control con datos en tiempo real de sensores de pozos petroleros.",
+        "image": "/images/projects/longview-1.png",
+        "images": [
+          "/images/projects/longview-1.png",
+          "/images/projects/longview-2.png",
+          "/images/projects/longview-3.png",
+          "/images/projects/longview-4.png",
+          "/images/projects/longview-5.png",
+          "/images/projects/longview-6.png",
+          "/images/projects/longview-7.png"
+        ],
+        "tags": ["Next.js", "Django", "PostgreSQL", "AWS", "IoT"],
+        "typeLabels": ["Industria", "SaaS", "Oil & Gas"],
+        "link": "#"
+      },
+      {
+        "id": 6,
+        "title": "BYMU Bubble Tea",
+        "description": "Tienda online para un distribuidor especializado de insumos y maquinarías de té de burburjas.",
+        "image": "/images/projects/bymu-1.png",
+        "images": [
+          "/images/projects/bymu-1.png",
+          "/images/projects/bymu-2.png",
+          "/images/projects/bymu-3.png",
+          "/images/projects/bymu-4.png",
+          "/images/projects/bymu-5.png",
+          "/images/projects/bymu-6.png",
+          "/images/projects/bymu-7.png",
+          "/images/projects/bymu-8.png"
+        ],
+        "tags": ["Web Design", "CMS", "Frontend"],
+        "typeLabels": ["Retail", "Store"],
+        "link": "#"
+      },
+      {
+        "id": 7,
+        "title": "GCAmbientPetrol",
+        "description": "Showcase digital de productos de limpieza ecológicos. Catálogo detallado de soluciones y presentaciones corporativas.",
+        "image": "/images/projects/gcambientpetrol-1.png",
+        "images": [
+          "/images/projects/gcambientpetrol-1.png",
+          "/images/projects/gcambientpetrol-2.png",
+          "/images/projects/gcambientpetrol-3.png",
+          "/images/projects/gcambientpetrol-4.png",
+          "/images/projects/gcambientpetrol-5.png",
+          "/images/projects/gcambientpetrol-6.png",
+          "/images/projects/gcambientpetrol-7.png",
+          "/images/projects/gcambientpetrol-8.png",
+          "/images/projects/gcambientpetrol-9.png",
+          "/images/projects/gcambientpetrol-10.png"
+        ],
+        "tags": ["Web Design", "CMS", "Frontend", "PHP"],
+        "typeLabels": ["Retail", "Store"],
+        "link": "#"
+      },
+      {
+        "id": 8,
         "title": "Gustavo Copelmayer",
         "description": "Un sitio web de marca personal y blog que muestra artículos, medios e hitos profesionales.",
         "image": "/images/projects/gustavocopelmayer-1.png",
@@ -174,23 +249,7 @@
         "link": "#"
       },
       {
-        "id": 5,
-        "title": "Longview",
-        "description": "Desarrollé un software de análisis y control con datos en tiempo real de sensores de pozos petroleros.",
-        "image": "/images/projects/longview-1.png",
-        "images": [
-          "/images/projects/longview-1.png",
-          "/images/projects/longview-2.png",
-          "/images/projects/longview-3.png",
-          "/images/projects/longview-4.png",
-          "/images/projects/longview-5.png"
-        ],
-        "tags": ["Next.js", "Django", "PostgreSQL", "IoT", "Tiempo real"],
-        "typeLabels": ["Industria", "SaaS"],
-        "link": "#"
-      },
-      {
-        "id": 6,
+        "id": 9,
         "title": "Residentudo",
         "description": "Un proyecto de juego estudiantil para una materia universitaria que recuerdo con mucho cariño.",
         "image": "/images/projects/residentudo-1.png",
@@ -237,7 +296,7 @@
     ]
   },
   "footer": {
-    "text": "Construyendo el futuro de la inteligencia escalable. Ubicado en Bogotá, CO.",
+    "text": "Potenciando objetivos empresariales a través de estrategia técnica y software robusto. Ubicado en Bogotá, CO.",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",

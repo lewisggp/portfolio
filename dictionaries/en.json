@@ -126,7 +126,7 @@
       {
         "id": 2,
         "title": "ProgyLift",
-        "description": "Intelligent management software connected to IoT systems of oil wells",
+        "description": "Intelligent management software connected to IoT systems of oil wells.",
         "image": "/images/projects/progylift-1.png",
         "images": [
           "/images/projects/progylift-1.png",
@@ -145,7 +145,7 @@
       {
         "id": 3,
         "title": "Tea and Nature",
-        "description": "An e-commerce storefront dedicated to natural products and teas with a focus on serene design.",
+        "description": "Store of tea, organic coffe, bubble tea and light food.",
         "image": "/images/projects/teandnature-1.png",
         "images": [
           "/images/projects/teandnature-1.png",
@@ -158,6 +158,81 @@
       },
       {
         "id": 4,
+        "title": "Punchclock",
+        "description": "Work control system for restaurant chains. Payroll calculations based on hours worked and payment history.",
+        "image": "/images/projects/punchclock-2.png",
+        "images": [
+          "/images/projects/punchclock-1.png",
+          "/images/projects/punchclock-2.png",
+          "/images/projects/punchclock-3.png",
+          "/images/projects/punchclock-4.png",
+          "/images/projects/punchclock-5.png",
+          "/images/projects/punchclock-6.png"
+        ],
+        "tags": ["React", "Vite", "Django", "VPS"],
+        "typeLabels": ["Management", "Custom"],
+        "link": "#"
+      },
+      {
+        "id": 5,
+        "title": "Longview",
+        "description": "Analysis and control software with real-time data from oil well sensors.",
+        "image": "/images/projects/longview-1.png",
+        "images": [
+          "/images/projects/longview-1.png",
+          "/images/projects/longview-2.png",
+          "/images/projects/longview-3.png",
+          "/images/projects/longview-4.png",
+          "/images/projects/longview-5.png",
+          "/images/projects/longview-6.png",
+          "/images/projects/longview-7.png"
+        ],
+        "tags": ["Next.js", "Django", "PostgreSQL", "AWS", "IoT"],
+        "typeLabels": ["Industry", "SaaS", "Oil & Gas"],
+        "link": "#"
+      },
+      {
+        "id": 6,
+        "title": "BYMU Bubble Tea",
+        "description": "B2B e-commerce website for a specialized distributor with a catalog of bubble tea ingredients and industrial machinery.",
+        "image": "/images/projects/bymu-1.png",
+        "images": [
+          "/images/projects/bymu-1.png",
+          "/images/projects/bymu-2.png",
+          "/images/projects/bymu-3.png",
+          "/images/projects/bymu-4.png",
+          "/images/projects/bymu-5.png",
+          "/images/projects/bymu-6.png",
+          "/images/projects/bymu-7.png",
+          "/images/projects/bymu-8.png"
+        ],
+        "tags": ["Web Design", "CMS", "Frontend"],
+        "typeLabels": ["Retail", "Store"],
+        "link": "#"
+      },
+      {
+        "id": 7,
+        "title": "GCAmbientPetrol",
+        "description": "Digital showcase of eco-friendly cleaning products. Detailed catalog of solutions and corporate presentations.",
+        "image": "/images/projects/gcambientpetrol-1.png",
+        "images": [
+          "/images/projects/gcambientpetrol-1.png",
+          "/images/projects/gcambientpetrol-2.png",
+          "/images/projects/gcambientpetrol-3.png",
+          "/images/projects/gcambientpetrol-4.png",
+          "/images/projects/gcambientpetrol-5.png",
+          "/images/projects/gcambientpetrol-6.png",
+          "/images/projects/gcambientpetrol-7.png",
+          "/images/projects/gcambientpetrol-8.png",
+          "/images/projects/gcambientpetrol-9.png",
+          "/images/projects/gcambientpetrol-10.png"
+        ],
+        "tags": ["Web Design", "CMS", "Frontend", "PHP"],
+        "typeLabels": ["Retail", "Store"],
+        "link": "#"
+      },
+      {
+        "id": 8,
         "title": "Gustavo Copelmayer",
         "description": "A personal brand website and blog showcasing articles, media, and professional milestones.",
         "image": "/images/projects/gustavocopelmayer-1.png",
@@ -169,28 +244,12 @@
           "/images/projects/gustavocopelmayer-5.png",
           "/images/projects/gustavocopelmayer-6.png"
         ],
-        "tags": ["Web Design", "CMS", "Frontend"],
+        "tags": ["Web Design", "CMS", "Frontend", "PHP"],
         "typeLabels": ["Personal", "Blog"],
         "link": "#"
       },
       {
-        "id": 5,
-        "title": "Longview",
-        "description": "Developed an analysis and control software with real-time data from oil well sensors.",
-        "image": "/images/projects/longview-1.png",
-        "images": [
-          "/images/projects/longview-1.png",
-          "/images/projects/longview-2.png",
-          "/images/projects/longview-3.png",
-          "/images/projects/longview-4.png",
-          "/images/projects/longview-5.png"
-        ],
-        "tags": ["Next.js", "Django", "PostgreSQL", "IoT", "Real-time"],
-        "typeLabels": ["Industry", "SaaS"],
-        "link": "#"
-      },
-      {
-        "id": 6,
+        "id": 9,
         "title": "Residentudo",
         "description": "A student game project for a university course that I remember with much affection.",
         "image": "/images/projects/residentudo-1.png",
@@ -237,7 +296,7 @@
     ]
   },
   "footer": {
-    "text": "Building the future of scalable intelligence. Based in Bogotá, CO.",
+    "text": "Empowering business goals through technical strategy and robust software. Based in Bogotá, CO.",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",

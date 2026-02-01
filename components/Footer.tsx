@@ -50,7 +50,7 @@ export default function Footer({ footer }: FooterProps) {
         </BlurFade>
         <BlurFade delay={0.4} direction="up" inView>
           <div className="text-white/30 text-xs font-medium">
-            © 2026 Lewisggp.site.
+            2026 Lewisggp.site.
           </div>
         </BlurFade>
       </div>
