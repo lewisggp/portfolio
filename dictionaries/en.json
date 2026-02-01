@@ -170,7 +170,7 @@
           "/images/projects/punchclock-6.png"
         ],
         "tags": ["React", "Vite", "Django", "VPS"],
-        "typeLabels": ["Management", "Custom"],
+        "typeLabels": ["ERP", "Custom"],
         "link": "#"
       },
       {
@@ -205,8 +205,8 @@
           "/images/projects/bymu-7.png",
           "/images/projects/bymu-8.png"
         ],
-        "tags": ["Web Design", "CMS", "Frontend"],
-        "typeLabels": ["Retail", "Store"],
+        "tags": ["Web Design", "Frontend"],
+        "typeLabels": ["CMS", "Store"],
         "link": "#"
       },
       {
@@ -226,12 +226,31 @@
           "/images/projects/gcambientpetrol-9.png",
           "/images/projects/gcambientpetrol-10.png"
         ],
-        "tags": ["Web Design", "CMS", "Frontend", "PHP"],
-        "typeLabels": ["Retail", "Store"],
+        "tags": ["Web Design", "Frontend", "PHP"],
+        "typeLabels": ["CMS", "Store"],
         "link": "#"
       },
       {
         "id": 8,
+        "title": "SPArquitectos",
+        "description": "Project management system for architecture projects, clients and employees. Tasks, deliveries, finance and payments control.",
+        "image": "/images/projects/sparquitectos-1.png",
+        "images": [
+          "/images/projects/sparquitectos-1.png",
+          "/images/projects/sparquitectos-2.png",
+          "/images/projects/sparquitectos-3.png",
+          "/images/projects/sparquitectos-4.png",
+          "/images/projects/sparquitectos-5.png",
+          "/images/projects/sparquitectos-6.png",
+          "/images/projects/sparquitectos-7.png",
+          "/images/projects/sparquitectos-8.png"
+        ],
+        "tags": ["Nextjs", "FastAPI", "Python", "PostgreSQL"],
+        "typeLabels": ["ERP", "Custom"],
+        "link": "#"
+      },
+      {
+        "id": 9,
         "title": "Gustavo Copelmayer",
         "description": "A personal brand website and blog showcasing articles, media, and professional milestones.",
         "image": "/images/projects/gustavocopelmayer-1.png",
@@ -243,12 +262,12 @@
           "/images/projects/gustavocopelmayer-5.png",
           "/images/projects/gustavocopelmayer-6.png"
         ],
-        "tags": ["Web Design", "CMS", "Frontend", "PHP"],
-        "typeLabels": ["Personal", "Blog"],
+        "tags": ["Web Design", "Frontend", "PHP"],
+        "typeLabels": ["CMS", "Blog"],
         "link": "#"
       },
       {
-        "id": 9,
+        "id": 10,
         "title": "Residentudo",
         "description": "A student game project for a university course that I remember with much affection.",
         "image": "/images/projects/residentudo-1.png",
@@ -264,7 +283,7 @@
           "/images/projects/residentudo-9.png",
           "/images/projects/residentudo-10.png"
         ],
-        "tags": ["Java", "Game", "Data Structures", "Student"],
+        "tags": ["Java", "Data Structures", "Student"],
         "typeLabels": ["University", "Game"],
         "link": "#"
       }
