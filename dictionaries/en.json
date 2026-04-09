@@ -121,7 +121,7 @@
         ],
         "tags": ["Next.js", "Node.js", "Redis", "MongoDB", "Multi-tenant"],
         "typeLabels": ["Travel", "Platform", "GDS"],
-        "link": "#"
+        "link": "https://www.elgoodtrip.com/"
       },
       {
         "id": 2,
@@ -144,6 +144,27 @@
       },
       {
         "id": 3,
+        "title": "CMA Joyeros",
+        "description": "Custom watch store with a built-in configurator powered by Shopify's Storefront API. Users design unique timepieces selecting cases, dials, and straps.",
+        "image": "/images/projects/cmajoyeros-scroll.gif",
+        "images": [
+          "/images/projects/cmajoyeros-1.png",
+          "/images/projects/cmajoyeros-2.png",
+          "/images/projects/cmajoyeros-3.png",
+          "/images/projects/cmajoyeros-4.png",
+          "/images/projects/cmajoyeros-5.png",
+          "/images/projects/cmajoyeros-6.png",
+          "/images/projects/cmajoyeros-7.png",
+          "/images/projects/cmajoyeros-8.png",
+          "/images/projects/cmajoyeros-9.png",
+          "/images/projects/cmajoyeros-10.png"
+        ],
+        "tags": ["Next.js", "Shopify", "Storefront API", "Tailwind"],
+        "typeLabels": ["E-commerce", "Store"],
+        "link": "https://cmajoyeros.com/"
+      },
+      {
+        "id": 4,
         "title": "Tea and Nature",
         "description": "Store of tea, organic coffe, bubble tea and light food.",
         "image": "/images/projects/teandnature-1.png",
@@ -154,10 +175,10 @@
         ],
         "tags": ["E-commerce", "Web Design", "Frontend"],
         "typeLabels": ["Retail", "Store"],
-        "link": "#"
+        "link": "https://teandnature.com/"
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "Punchclock",
         "description": "Work control system for restaurant chains. Payroll calculations based on hours worked and payment history.",
         "image": "/images/projects/punchclock-2.png",
@@ -174,7 +195,7 @@
         "link": "#"
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "Longview",
         "description": "Analysis and control software with real-time data from oil well sensors.",
         "image": "/images/projects/longview-1.png",
@@ -191,7 +212,7 @@
         "link": "#"
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "BYMU Bubble Tea",
         "description": "B2B e-commerce website for a specialized distributor with a catalog of bubble tea ingredients and industrial machinery.",
         "image": "/images/projects/bymu-1.png",
@@ -210,7 +231,7 @@
         "link": "#"
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "GCAmbientPetrol",
         "description": "Digital showcase of eco-friendly cleaning products. Detailed catalog of solutions and corporate presentations.",
         "image": "/images/projects/gcambientpetrol-1.png",
@@ -231,7 +252,7 @@
         "link": "#"
       },
       {
-        "id": 8,
+        "id": 9,
         "title": "SPArquitectos",
         "description": "Project management system for architecture projects, clients and employees. Tasks, deliveries, finance and payments control.",
         "image": "/images/projects/sparquitectos-1.png",
@@ -250,7 +271,7 @@
         "link": "#"
       },
       {
-        "id": 9,
+        "id": 10,
         "title": "Gustavo Copelmayer",
         "description": "A personal brand website and blog showcasing articles, media, and professional milestones.",
         "image": "/images/projects/gustavocopelmayer-1.png",
@@ -264,10 +285,10 @@
         ],
         "tags": ["Web Design", "Frontend", "PHP"],
         "typeLabels": ["CMS", "Blog"],
-        "link": "#"
+        "link": "https://gustavocopelmayer.com/"
       },
       {
-        "id": 10,
+        "id": 11,
         "title": "Residentudo",
         "description": "A student game project for a university course that I remember with much affection.",
         "image": "/images/projects/residentudo-1.png",
@@ -285,7 +306,7 @@
         ],
         "tags": ["Java", "Data Structures", "Student"],
         "typeLabels": ["University", "Game"],
-        "link": "#"
+        "link": "https://github.com/lewisggp/poo-abstraccion/tree/master/ResidentUdo"
       }
     ]
   },
