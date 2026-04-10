@@ -165,20 +165,6 @@
       },
       {
         "id": 4,
-        "title": "Tea and Nature",
-        "description": "Store of tea, organic coffe, bubble tea and light food.",
-        "image": "/images/projects/teandnature-1.png",
-        "images": [
-          "/images/projects/teandnature-1.png",
-          "/images/projects/teandnature-2.png",
-          "/images/projects/teandnature-3.png"
-        ],
-        "tags": ["E-commerce", "Web Design", "Frontend"],
-        "typeLabels": ["Retail", "Store"],
-        "link": "https://teandnature.com/"
-      },
-      {
-        "id": 5,
         "title": "Punchclock",
         "description": "Work control system for restaurant chains. Payroll calculations based on hours worked and payment history.",
         "image": "/images/projects/punchclock-2.png",
@@ -193,6 +179,20 @@
         "tags": ["React", "Vite", "Django", "VPS"],
         "typeLabels": ["ERP", "Custom"],
         "link": "#"
+      },
+      {
+        "id": 5,
+        "title": "Tea and Nature",
+        "description": "Store of tea, organic coffe, bubble tea and light food.",
+        "image": "/images/projects/teandnature-1.png",
+        "images": [
+          "/images/projects/teandnature-1.png",
+          "/images/projects/teandnature-2.png",
+          "/images/projects/teandnature-3.png"
+        ],
+        "tags": ["E-commerce", "Web Design", "Frontend"],
+        "typeLabels": ["Retail", "Store"],
+        "link": "https://teandnature.com/"
       },
       {
         "id": 6,
