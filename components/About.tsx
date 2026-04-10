@@ -20,11 +20,11 @@ export default function About({ about }: AboutProps) {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
         <div className="lg:col-span-4 relative max-w-xs mx-auto lg:max-w-none lg:mx-0">
           <BlurFade delay={0.2} direction="up" inView>
-            <div className="aspect-square rounded-2xl overflow-hidden backdrop-blur-md bg-white/5 border border-white/10 p-2 relative z-10">
+            <div className="aspect-auto rounded-2xl overflow-hidden backdrop-blur-md bg-white/5 border border-white/10 p-2 relative z-10">
               <img
                 className="w-full h-full object-cover rounded-xl"
                 alt="Abstract representation of high-tech digital intelligence"
-                src="/images/portrait.png"
+                src="/images/portrait.jfif"
               />
             </div>
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary/20 rounded-full blur-[80px] -z-10"></div>
