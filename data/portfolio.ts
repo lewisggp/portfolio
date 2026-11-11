@@ -48,6 +48,7 @@ export const STACK_CARDS: StackCardItem[] = [
   { icon: "Docker", title: "DOCKER" },
   { icon: "Redis", title: "REDIS" },
   { icon: "Django", title: "DJANGO" },
+  { icon: "bolt", title: "FASTAPI" },
   { icon: "Python", title: "PYTHON / PYSPARK" },
   { icon: "Storage", title: "SQL / NOSQL" },
   { icon: "GraphQL", title: "GRAPHQL" },

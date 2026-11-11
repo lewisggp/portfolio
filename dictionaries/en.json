@@ -10,7 +10,7 @@
     "badge": "Now Available for New Projects",
     "title1": "Architecting Scalable Systems",
     "title2": "& Full Stack Developer",
-    "description": "Software Engineer with experience designing end-to-end web applications. 5+ years transforming technical challenges into robust technological solutions.",
+    "description": "Software Engineer with experience designing end-to-end web applications. 6+ years transforming technical challenges into robust technological solutions.",
     "ctaProjects": "View Projects",
     "ctaResume": "Resume",
     "resumeLink": "/docs/LewisGarciaResume.pdf"
@@ -29,16 +29,16 @@
       {
         "id": 1,
         "period": "Nov 2024 — PRESENT",
-        "title": "Arquitecture & Platform Engineering",
+        "title": "Architecture & Platform Engineering",
         "description": "Design and scalability of digital ecosystems for the travel and ecommerce sectors.",
         "location": "Lechería, Venezuela",
         "role": "Lead Full Stack Engineer",
         "company": "Back9",
         "type": "corporate_fare",
         "achievements": [
-          "Developed e-commerce applications with custom back-office, featuring embedded Power BI dashboards.",
-          "Built an end-to-end airline booking platform utilizing data from multiple GDS for travel agencies.",
-          "Automated stadium access systems by programming micro-controllers connected to a digital ticketing platform."
+          "Designed a multi-tenant airline booking platform on a Node.js microservices architecture with Sabre and KIU GDS integration, generating $500K+ in sales, 120K+ monthly searches and 140K+ users.",
+          "Developed custom e-commerce applications and headless Shopify solutions using Node.js and React, featuring custom back-offices and embedded Power BI dashboards.",
+          "Automated stadium access control systems by programming Python-based micro-controllers integrated with a digital ticketing platform serving 293K users across Venezuela."
         ]
       },
       {
@@ -47,11 +47,11 @@
         "title": "Academic Leadership & Theory",
         "description": "Training the next generation of computer engineers.",
         "location": "Barcelona, Venezuela",
-        "role": "Adjunct Professor",
+        "role": "Adjunct Professor (Part-time)",
         "company": "Universidad de Oriente",
         "type": "school",
         "achievements": [
-          "Taught the undergraduate course Formal Languages and Automata Theory in the Department of Computer Engineering."
+          "Taught the undergraduate courses Automata Theory and Logic Design in the Department of Computer Engineering."
         ]
       },
       {
@@ -59,14 +59,14 @@
         "period": "Mar 2025 — PRESENT",
         "title": "SaaS Architecture & AI Innovation",
         "description": "Industrial product architecture and advanced Generative AI solutions.",
-        "location": "Remote",
-        "role": "Founding Engineer",
+        "location": "Houston, Texas",
+        "role": "Co-Founder & Founding Engineer",
         "company": "ProgyLift LLC",
         "type": "rocket_launch",
         "achievements": [
-          "Spearheaded the technical architecture and product design of a SaaS platform for the oil industry.",
-          "Developed an analysis and control software with real-time data from oil well sensors.",
-          "Engineered a RAG Chatbot enabling queries on live production databases and internal documentation."
+          "Co-designed the technical roadmap and product architecture of a SaaS platform for the oil industry.",
+          "Developed a monitoring and control software in Next.js, integrating telemetry and Machine Learning algorithms for remote adjustment of operational parameters in stripper wells.",
+          "Engineered a RAG Chatbot using Python and n8n with WhatsApp integration, enabling live production database and documentation queries and reducing retrieval time to seconds."
         ]
       },
       {
@@ -74,19 +74,19 @@
         "period": "Feb 2023 — Sep 2024",
         "title": "IoT Systems & Cloud Integration",
         "description": "Automation and monitoring of telemetry data using cloud services.",
-        "location": "Remote",
+        "location": "Houston, Texas",
         "role": "Full Stack Developer",
         "company": "NextWells Corp.",
         "type": "sensors",
         "achievements": [
-          "Automated data acquisition with AWS IoT Core and lambda functions for data from oil well controllers.",
-          "Developed a web application in Next.js with dashboards to visualize production data.",
-          "Maintained an ASP.NET web application with dashboards for analysis and data management in the oil industry."
+          "Automated data pipelines using AWS IoT Core and Lambda functions for well monitoring, programming Python controllers for I/O management and direct communication with the software server.",
+          "Developed a modern Next.js web application with production dashboards and remote control of oil wells to replace a legacy ASP.NET infrastructure.",
+          "Maintained an ASP.NET data management application and analysis dashboards for a portfolio of 10 active oil wells."
         ]
       },
       {
         "id": 5,
-        "period": "2020 — 2024",
+        "period": "2020 — 2023",
         "title": "Custom Software Solutions",
         "description": "Development of custom applications and freelance project management.",
         "location": "Remote",
@@ -94,21 +94,21 @@
         "company": "Freelancer",
         "type": "speed",
         "achievements": [
-          "Maintained a web application for managing architecture project data with custom dashboards.",
-          "Built a software for employee time tracking across companies, including calculations based on hours worked.",
-          "Developed websites such as blogs and product stores."
+          "Developed and maintained a web application for architecture data management using FastAPI and Next.js with custom dashboards.",
+          "Built a multi-company workforce management system for employee time tracking and payroll based on hours worked using Python/Django and React.",
+          "Developed various websites, including blogs and product stores, focusing on performance and scalability."
         ]
       }
     ]
   },
   "projects": {
     "title": "Featured Engineering Challenges",
-    "subtitle": "A selection of deep-tech projects involving complex arquitecture, design patters and enterprise AI integration.",
+    "subtitle": "A selection of deep-tech projects involving complex architecture, design patterns and enterprise AI integration.",
     "items": [
       {
         "id": 1,
         "title": "El Good Trip",
-        "description": "Built an end-to-end airline booking platform utilizing data from multiple GDS for travel agencies.",
+        "description": "Multi-tenant airline booking platform integrating Sabre and KIU GDS for travel agencies, with $500K+ in sales, 120K+ monthly searches and 140K+ users.",
         "image": "/images/projects/elgoodtrip-1.png",
         "images": [
           "/images/projects/elgoodtrip-1.png",
@@ -183,7 +183,7 @@
       {
         "id": 5,
         "title": "Tea and Nature",
-        "description": "Store of tea, organic coffe, bubble tea and light food.",
+        "description": "Store of tea, organic coffee, bubble tea and light food.",
         "image": "/images/projects/teandnature-1.png",
         "images": [
           "/images/projects/teandnature-1.png",
@@ -335,7 +335,7 @@
     ]
   },
   "footer": {
-    "text": "Empowering business goals through technical strategy and robust software. Based in Bogotá, CO.",
+    "text": "Empowering business goals through technical strategy and robust software. Based in Puerto La Cruz, VE.",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",

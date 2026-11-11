@@ -10,7 +10,7 @@
     "badge": "Disponible para Nuevos Proyectos",
     "title1": "Arquitecturas Escalables",
     "title2": "& Desarrollo Full Stack",
-    "description": "Ingeniero de Software. +5 años transformando retos técnicos en soluciones tecnológicas robustas.",
+    "description": "Ingeniero de Software. +6 años transformando retos técnicos en soluciones tecnológicas robustas.",
     "ctaProjects": "Ver Proyectos",
     "ctaResume": "Ver CV",
     "resumeLink": "/docs/CVLewisGarcia.pdf"
@@ -36,9 +36,9 @@
         "company": "Back9",
         "type": "corporate_fare",
         "achievements": [
-          "Desarrollé aplicaciones de comercio electrónico (e-commerce) con back-office personalizado, integrando Power BI.",
-          "Construí una plataforma end-to-end de reservas aéreas utilizando datos de múltiples GDS para agencias de viaje.",
-          "Automaticé sistemas de acceso a estadios programando controladores conectados a una plataforma de boletería digital."
+          "Diseñé una plataforma multi-tenant de reservas aéreas con arquitectura de microservicios en Node.js e integración con los GDS Sabre y KIU, generando más de $500K en ventas, 120K+ búsquedas mensuales y 140K+ usuarios.",
+          "Desarrollé aplicaciones de e-commerce a medida y soluciones headless de Shopify con Node.js y React, con back-offices personalizados y dashboards de Power BI embebidos.",
+          "Automaticé sistemas de control de acceso a estadios programando microcontroladores en Python integrados con una plataforma de boletería digital que atiende a 293K usuarios en Venezuela."
         ]
       },
       {
@@ -47,11 +47,11 @@
         "title": "Liderazgo Académico",
         "description": "Formando a la próxima generación de ingenieros informáticos.",
         "location": "Barcelona, Venezuela",
-        "role": "Profesor Adjunto",
+        "role": "Profesor Adjunto (Tiempo parcial)",
         "company": "Universidad de Oriente",
         "type": "school",
         "achievements": [
-          "Impartiendo la asignatura de pregrado 'Teoría de Autómatas y Lenguajes Formales' en el Departamento de Ingeniería."
+          "Imparto las asignaturas de pregrado Teoría de Autómatas y Diseño Lógico en el Departamento de Ingeniería en Computación."
         ]
       },
       {
@@ -59,14 +59,14 @@
         "period": "Mar 2025 — PRESENTE",
         "title": "Arquitectura SaaS e Innovación en IA",
         "description": "Arquitectura de productos industriales y soluciones avanzadas de IA generativa.",
-        "location": "Remoto",
-        "role": "Founding Engineer",
+        "location": "Houston, Texas",
+        "role": "Co-Founder & Founding Engineer",
         "company": "ProgyLift LLC",
         "type": "rocket_launch",
         "achievements": [
-          "Lideré la arquitectura técnica y el diseño de producto de una plataforma SaaS para la industria petrolera.",
-          "Desarrollé un software de análisis y control con datos en tiempo real provenientes de sensores de pozos petroleros.",
-          "Ingenié un Chatbot RAG permitiendo consultas sobre bases de datos de producción y documentación interna."
+          "Co-diseñé el roadmap técnico y la arquitectura de producto de una plataforma SaaS para la industria petrolera.",
+          "Desarrollé un software de monitoreo y control en Next.js, integrando telemetría y algoritmos de Machine Learning para el ajuste remoto de parámetros operacionales en pozos marginales (stripper wells).",
+          "Construí un Chatbot RAG con Python y n8n integrado a WhatsApp, que permite consultar la base de datos de producción y la documentación en vivo, reduciendo el tiempo de búsqueda a segundos."
         ]
       },
       {
@@ -74,19 +74,19 @@
         "period": "Feb 2023 — Sep 2024",
         "title": "Sistemas IoT e Integración en la Nube",
         "description": "Automatización y monitoreo de datos de telemetría utilizando servicios en la nube.",
-        "location": "Remoto",
+        "location": "Houston, Texas",
         "role": "Full Stack Developer",
         "company": "NextWells Corp.",
         "type": "sensors",
         "achievements": [
-          "Automatice adquisición de datos con AWS IoT Core y funciones Lambda para datos de controladores de pozos petroleros.",
-          "Desarrollé una aplicación web en Next.js con dashboards para visualizar datos de producción.",
-          "Mantuve una aplicación web en ASP.NET con dashboards para el análisis y gestión de datos en la industria petrolera."
+          "Automaticé pipelines de datos con AWS IoT Core y funciones Lambda para el monitoreo de pozos, programando controladores en Python para la gestión de I/O y la comunicación directa con el servidor.",
+          "Desarrollé una aplicación web moderna en Next.js con dashboards de producción y control remoto de pozos petroleros para reemplazar una infraestructura legacy en ASP.NET.",
+          "Mantuve una aplicación ASP.NET de gestión de datos y dashboards de análisis para un portafolio de 10 pozos petroleros activos."
         ]
       },
       {
         "id": 5,
-        "period": "2020 — 2024",
+        "period": "2020 — 2023",
         "title": "Soluciones de Software Personalizadas",
         "description": "Desarrollo de aplicaciones personalizadas y gestión de proyectos freelance.",
         "location": "Remoto",
@@ -94,9 +94,9 @@
         "company": "Freelancer",
         "type": "speed",
         "achievements": [
-          "Mantuve una aplicación web para la gestión de proyectos de arquitectura con dashboards personalizados.",
-          "Construí un software para el seguimiento de tiempo de empleados, con cálculos de nómina basados en horas trabajadas.",
-          "Diseñé y desarrollé sitios web, incluyendo blogs y tiendas de productos."
+          "Desarrollé y mantuve una aplicación web para la gestión de datos de arquitectura con FastAPI y Next.js, con dashboards personalizados.",
+          "Construí un sistema multiempresa de gestión de personal para el control de horas y nómina basada en horas trabajadas, con Python/Django y React.",
+          "Desarrollé diversos sitios web, incluyendo blogs y tiendas de productos, con foco en rendimiento y escalabilidad."
         ]
       }
     ]
@@ -108,7 +108,7 @@
       {
         "id": 1,
         "title": "El Good Trip",
-        "description": "Plataforma de reserva de aerolíneas unificando datos de múltiples GDS para agencias de viajes.",
+        "description": "Plataforma multi-tenant de reservas aéreas que integra los GDS Sabre y KIU para agencias de viajes, con más de $500K en ventas, 120K+ búsquedas mensuales y 140K+ usuarios.",
         "image": "/images/projects/elgoodtrip-1.png",
         "images": [
           "/images/projects/elgoodtrip-1.png",
@@ -214,7 +214,7 @@
       {
         "id": 7,
         "title": "BYMU Bubble Tea",
-        "description": "Tienda online para un distribuidor especializado de insumos y maquinarías de té de burburjas.",
+        "description": "Tienda online para un distribuidor especializado de insumos y maquinarias de té de burbujas.",
         "image": "/images/projects/bymu-1.png",
         "images": [
           "/images/projects/bymu-1.png",
@@ -335,7 +335,7 @@
     ]
   },
   "footer": {
-    "text": "Potenciando objetivos empresariales a través de estrategia técnica y software robusto. Ubicado en Bogotá, CO.",
+    "text": "Potenciando objetivos empresariales a través de estrategia técnica y software robusto. Ubicado en Puerto La Cruz, VE.",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
